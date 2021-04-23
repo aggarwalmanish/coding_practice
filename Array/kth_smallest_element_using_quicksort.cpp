@@ -66,7 +66,7 @@ int main() {
     // so, other ways are
     // 1. Min heap      -> O(n + klogn)
     // 2. Quick Sort (pivot til kth smallest ele) -> O(n) average; O(n^2) in worst case
-    // 3. Sort and return the [k-`] element     -> O(n*logn)
+    // 3. Sort and return the [k-1] element     -> O(n*logn)
     
     cout<<kthsmallest_element(arr, 0, arr_size-1, k)<<endl;
 
